@@ -26,9 +26,16 @@ from core.utils import get_user_path, get_user_email
 
 app = FastAPI()
 
+
+origins = [
+    "https://repliora-ai.vercel.app",  # your Vercel domain
+    "http://localhost:5173",  # optional for local dev
+]
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=origins,  # only allow frontend URLs you trust
+    allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
