@@ -1,58 +1,37 @@
-// src/utils/api.js
-const API_BASE = "http://localhost:8000";
+import axios from "axios";
 
+// Automatically choose the correct base URL depending on the environment
+const API_BASE =
+  import.meta.env.PROD
+    ? "https://repliora-api.onrender.com"
+    : "http://localhost:8000";
+
+// Create a pre-configured axios instance
 const api = axios.create({
-  baseURL: "https://repliora-api.onrender.com",
+  baseURL: API_BASE,
+  headers: {
+    "Content-Type": "application/json",
+  },
 });
 
-
-const getHeaders = (isJson = true) => {
+// Add a request interceptor to inject user email in all requests
+api.interceptors.request.use((config) => {
   const email = localStorage.getItem("user_email");
-  const headers = { "x-user-email": email || "" };
-  if (isJson) headers["Content-Type"] = "application/json";
-  return headers;
-};
-
-const handleResponse = async (res) => {
-  if (res.status === 401) {
-    window.location.href = "/login";
-    throw new Error("Unauthorized");
+  if (email) {
+    config.headers["x-user-email"] = email;
   }
-  if (!res.ok) throw new Error("Request failed");
-  return res.json();
-};
+  return config;
+});
 
-export default {
-  get: (endpoint) =>
-    fetch(`${API_BASE}${endpoint}`, {
-      method: "GET",
-      headers: getHeaders(),
-    }).then(handleResponse),
+// Add a response interceptor for global error handling
+api.interceptors.response.use(
+  (response) => response,
+  (error) => {
+    if (error.response?.status === 401) {
+      window.location.href = "/login";
+    }
+    return Promise.reject(error);
+  }
+);
 
-  post: (endpoint, body) =>
-    fetch(`${API_BASE}${endpoint}`, {
-      method: "POST",
-      headers: getHeaders(),
-      body: JSON.stringify(body),
-    }).then(handleResponse),
-
-  put: (endpoint, body) =>
-    fetch(`${API_BASE}${endpoint}`, {
-      method: "PUT",
-      headers: getHeaders(),
-      body: JSON.stringify(body),
-    }).then(handleResponse),
-
-  delete: (endpoint) =>
-    fetch(`${API_BASE}${endpoint}`, {
-      method: "DELETE",
-      headers: getHeaders(),
-    }).then(handleResponse),
-
-  upload: (endpoint, formData) =>
-    fetch(`${API_BASE}${endpoint}`, {
-      method: "POST",
-      headers: getHeaders(false), // omit Content-Type for FormData
-      body: formData,
-    }).then(handleResponse),
-};
+export default api;
