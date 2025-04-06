@@ -102,9 +102,7 @@ wrapt==1.17.2
 zipp==3.21.0
 fastapi
 uvicorn
-sentence-transformers
+sentence-transformers==2.2.2
+transformers==4.35.2
+torch>=1.11.0
 apscheduler
-<<<<<<< HEAD
-=======
-
->>>>>>> 48048cc (WIP: your message here)
