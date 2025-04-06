@@ -10,7 +10,7 @@ export default function Register({ onRegister }) {
 
   const handleRegister = async () => {
     try {
-      const data = await api.post("/auth/register", {
+      const data = await api.post("/register", {
         email,
         password,
         role: "user", // ✅ Hardcoded to user
