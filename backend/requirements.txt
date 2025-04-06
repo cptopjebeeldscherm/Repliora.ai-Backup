@@ -103,3 +103,7 @@ zipp==3.21.0
 fastapi
 uvicorn
 sentence-transformers
+<<<<<<< HEAD
+=======
+apscheduler
+>>>>>>> 60b88b1 (Updated project)
