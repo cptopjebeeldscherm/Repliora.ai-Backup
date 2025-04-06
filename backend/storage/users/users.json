@@ -1,0 +1,17 @@
+{
+  "oh.korucu@gmail.com": {
+    "email": "oh.korucu@gmail.com",
+    "password": "ecd71870d1963316a97e3ac3408c9835ad8cf0f3c1bc703527c30265534f75ae",
+    "role": "admin"
+  },
+  "test@test.com": {
+    "email": "test@test.com",
+    "password": "9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08",
+    "role": "user"
+  },
+  "test1@gmail.com": {
+    "email": "test1@gmail.com",
+    "password": "1b4f0e9851971998e732078544c96b36c3d01cedf7caa332359d6f1d83567014",
+    "role": "user"
+  }
+}

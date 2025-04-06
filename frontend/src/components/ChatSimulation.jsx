@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import api from "../utils/api";
 
 export default function ChatSimulation() {
   const [input, setInput] = useState("");
@@ -13,12 +14,7 @@ export default function ChatSimulation() {
     setInput("");
 
     try {
-      const res = await fetch("http://localhost:8000/match-faq", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ message: input }),
-      });
-      const data = await res.json();
+      const data = await api.post("/match-faq", { message: input });
       const botMessage = {
         role: "bot",
         text: data.answer || "Sorry, I couldn't find a good match.",
@@ -36,16 +32,14 @@ export default function ChatSimulation() {
         {messages.map((msg, i) => (
           <div
             key={i}
-            className={`mb-2 ${
-              msg.role === "user" ? "text-right" : "text-left"
-            }`}
+            className={`mb-2 ${msg.role === "user" ? "text-right" : "text-left"
+              }`}
           >
             <div
-              className={`inline-block px-3 py-2 rounded ${
-                msg.role === "user"
+              className={`inline-block px-3 py-2 rounded ${msg.role === "user"
                   ? "bg-blue-500 text-white"
                   : "bg-gray-100 text-gray-800"
-              }`}
+                }`}
             >
               {msg.text}
             </div>

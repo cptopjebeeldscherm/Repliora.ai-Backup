@@ -1,0 +1,108 @@
+2025-04-05 16:13:18,595 [INFO] Checking inbox for: oh_dot_korucu_at_gmail_dot_com
+2025-04-05 16:13:25,525 [INFO] 9546 unread emails.
+2025-04-05 16:13:28,148 [INFO] From: hello@shophunter.io, Subject: Hurry! Shophunter.io's Exclusive Offer expires in 48 hours!
+2025-04-05 16:13:30,239 [ERROR] ERROR: unhashable type: 'slice'
+2025-04-05 16:14:32,200 [INFO] Use pytorch device_name: cpu
+2025-04-05 16:14:32,200 [INFO] Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-05 16:14:56,080 [INFO] Checking inbox for: oh_dot_korucu_at_gmail_dot_com
+2025-04-05 16:14:56,080 [INFO] Checking inbox for: unknown_user
+2025-04-05 16:14:56,104 [ERROR] Failed to load credentials for unknown_user: [Errno 2] No such file or directory: 'C:\\Users\\ohkor\\Desktop\\Repliora.ai\\backend\\storage\\users\\unknown_user\\email_credentials.json'
+2025-04-05 16:14:58,582 [INFO] 9545 unread emails.
+2025-04-05 16:14:59,382 [INFO] From: sadaqah@mail.islamnet.com, Subject: Hold on! You need to have this in your ibadah!
+2025-04-05 16:15:01,454 [ERROR] ERROR: Expecting value: line 1 column 1 (char 0)
+2025-04-05 16:18:13,859 [INFO] Checking inbox for: oh_dot_korucu_at_gmail_dot_com
+2025-04-05 16:18:13,859 [INFO] Checking inbox for: unknown_user
+2025-04-05 16:18:13,859 [ERROR] Failed to load credentials for unknown_user: [Errno 2] No such file or directory: 'C:\\Users\\ohkor\\Desktop\\Repliora.ai\\backend\\storage\\users\\unknown_user\\email_credentials.json'
+2025-04-05 16:18:16,217 [INFO] 9544 unread emails.
+2025-04-05 16:18:16,446 [INFO] From: kimy@spocket.co, Subject: 12 days FREE expires in 24 hours!
+2025-04-05 16:18:18,570 [ERROR] ERROR: Expecting value: line 1 column 1 (char 0)
+2025-04-05 16:18:18,570 [INFO] Sleeping for 120 seconds...
+2025-04-05 16:18:26,711 [INFO] Use pytorch device_name: cpu
+2025-04-05 16:18:26,711 [INFO] Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-05 16:20:18,577 [INFO] Checking inbox for: oh_dot_korucu_at_gmail_dot_com
+2025-04-05 16:20:18,577 [INFO] Checking inbox for: unknown_user
+2025-04-05 16:20:18,577 [ERROR] Failed to load credentials for unknown_user: [Errno 2] No such file or directory: 'C:\\Users\\ohkor\\Desktop\\Repliora.ai\\backend\\storage\\users\\unknown_user\\email_credentials.json'
+2025-04-05 16:20:22,141 [INFO] 9543 unread emails.
+2025-04-05 16:20:22,388 [INFO] From: no-reply@connect.etoro.com, Subject: Join us with BBBY CEO, Sue Gove
+2025-04-05 16:20:24,474 [ERROR] ERROR: Expecting value: line 1 column 1 (char 0)
+2025-04-05 16:20:24,476 [INFO] Sleeping for 120 seconds...
+2025-04-05 17:32:35,169 [INFO] Checking inbox for: oh_dot_korucu_at_gmail_dot_com
+2025-04-05 17:32:35,169 [INFO] Checking inbox for: unknown_user
+2025-04-05 17:32:35,169 [ERROR] Failed to load credentials for unknown_user: [Errno 2] No such file or directory: 'C:\\Users\\ohkor\\Desktop\\Repliora.ai\\backend\\storage\\users\\unknown_user\\email_credentials.json'
+2025-04-05 17:32:36,345 [INFO] 9542 unread emails.
+2025-04-05 17:32:36,626 [INFO] From: sadaqah@mail.islamnet.com, Subject: Your reward for supporting us
+2025-04-05 17:33:15,808 [INFO] Use pytorch device_name: cpu
+2025-04-05 17:33:15,808 [INFO] Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-05 17:33:24,064 [ERROR] ERROR: Expecting value: line 1 column 1 (char 0)
+2025-04-05 17:33:24,065 [INFO] Sleeping for 120 seconds...
+2025-04-05 17:35:33,105 [INFO] Checking inbox for: oh_dot_korucu_at_gmail_dot_com
+2025-04-05 17:35:33,105 [INFO] Checking inbox for: unknown_user
+2025-04-05 17:35:33,105 [ERROR] Failed to load credentials for unknown_user: [Errno 2] No such file or directory: 'C:\\Users\\ohkor\\Desktop\\Repliora.ai\\backend\\storage\\users\\unknown_user\\email_credentials.json'
+2025-04-05 17:35:34,838 [INFO] 9541 unread emails.
+2025-04-05 17:35:35,126 [INFO] From: sadaqah@mail.islamnet.com, Subject: My secret formula for Laylat al-Qadr!
+2025-04-05 17:35:37,238 [ERROR] ERROR: Expecting value: line 1 column 1 (char 0)
+2025-04-05 17:35:37,238 [INFO] Sleeping for 2 seconds...
+2025-04-05 17:35:39,271 [INFO] Checking inbox for: oh_dot_korucu_at_gmail_dot_com
+2025-04-05 17:35:39,299 [INFO] Checking inbox for: unknown_user
+2025-04-05 17:35:39,300 [ERROR] Failed to load credentials for unknown_user: [Errno 2] No such file or directory: 'C:\\Users\\ohkor\\Desktop\\Repliora.ai\\backend\\storage\\users\\unknown_user\\email_credentials.json'
+2025-04-05 17:35:40,643 [INFO] 9540 unread emails.
+2025-04-05 17:35:40,992 [INFO] From: sales08.m@mail.aliexpress.com, Subject: Aanbevolen item: Dc 12V 2A/3A/5A Voeding W/Backup Batterij
+ Interface ...
+2025-04-05 17:35:45,473 [INFO] Use pytorch device_name: cpu
+2025-04-05 17:35:45,473 [INFO] Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-05 17:35:49,435 [ERROR] ERROR: Expecting value: line 1 column 1 (char 0)
+2025-04-05 17:35:49,435 [INFO] Sleeping for 2 seconds...
+2025-04-05 17:35:51,438 [INFO] Checking inbox for: oh_dot_korucu_at_gmail_dot_com
+2025-04-05 17:35:51,438 [INFO] Checking inbox for: unknown_user
+2025-04-05 17:35:51,438 [ERROR] Failed to load credentials for unknown_user: [Errno 2] No such file or directory: 'C:\\Users\\ohkor\\Desktop\\Repliora.ai\\backend\\storage\\users\\unknown_user\\email_credentials.json'
+2025-04-05 17:35:52,435 [INFO] 9539 unread emails.
+2025-04-05 17:35:52,737 [INFO] From: support@appscenic.com, Subject: Welcome to AppScenic! Please verify your email.
+2025-04-05 17:35:54,838 [ERROR] ERROR: Expecting value: line 1 column 1 (char 0)
+2025-04-05 17:36:25,002 [INFO] Use pytorch device_name: cpu
+2025-04-05 17:36:25,002 [INFO] Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-05 17:36:39,865 [INFO] Use pytorch device_name: cpu
+2025-04-05 17:36:39,867 [INFO] Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-05 17:41:41,036 [INFO] Use pytorch device_name: cpu
+2025-04-05 17:41:41,036 [INFO] Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-05 17:44:20,681 [INFO] Use pytorch device_name: cpu
+2025-04-05 17:44:20,681 [INFO] Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-05 17:53:35,889 [INFO] Use pytorch device_name: cpu
+2025-04-05 17:53:35,889 [INFO] Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-05 17:55:58,347 [INFO] Use pytorch device_name: cpu
+2025-04-05 17:55:58,347 [INFO] Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-05 17:56:12,119 [INFO] Use pytorch device_name: cpu
+2025-04-05 17:56:12,119 [INFO] Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-05 17:56:36,442 [INFO] Use pytorch device_name: cpu
+2025-04-05 17:56:36,442 [INFO] Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-05 17:56:53,051 [INFO] Use pytorch device_name: cpu
+2025-04-05 17:56:53,052 [INFO] Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-05 17:58:43,576 [INFO] Use pytorch device_name: cpu
+2025-04-05 17:58:43,576 [INFO] Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-05 17:59:27,800 [INFO] Use pytorch device_name: cpu
+2025-04-05 17:59:27,800 [INFO] Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-05 18:00:59,730 [INFO] Use pytorch device_name: cpu
+2025-04-05 18:00:59,730 [INFO] Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-05 18:11:01,304 [INFO] Use pytorch device_name: cpu
+2025-04-05 18:11:01,304 [INFO] Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-05 18:11:13,024 [INFO] Use pytorch device_name: cpu
+2025-04-05 18:11:13,024 [INFO] Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-05 21:27:30,998 [INFO] Use pytorch device_name: cpu
+2025-04-05 21:27:30,998 [INFO] Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-05 21:37:30,741 [INFO] Use pytorch device_name: cpu
+2025-04-05 21:37:30,741 [INFO] Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-05 21:41:40,768 [INFO] Use pytorch device_name: cpu
+2025-04-05 21:41:40,774 [INFO] Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-05 21:46:16,835 [INFO] Use pytorch device_name: cpu
+2025-04-05 21:46:16,835 [INFO] Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-05 21:48:24,501 [INFO] Use pytorch device_name: cpu
+2025-04-05 21:48:24,501 [INFO] Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-05 21:51:25,616 [INFO] Use pytorch device_name: cpu
+2025-04-05 21:51:25,616 [INFO] Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-05 22:14:37,265 [INFO] Use pytorch device_name: cpu
+2025-04-05 22:14:37,265 [INFO] Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-05 22:16:56,426 [INFO] Use pytorch device_name: cpu
+2025-04-05 22:16:56,426 [INFO] Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-05 22:21:57,596 [INFO] Use pytorch device_name: cpu
+2025-04-05 22:21:57,596 [INFO] Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-05 22:54:50,940 [INFO] Use pytorch device_name: cpu
+2025-04-05 22:54:50,942 [INFO] Load pretrained SentenceTransformer: all-MiniLM-L6-v2

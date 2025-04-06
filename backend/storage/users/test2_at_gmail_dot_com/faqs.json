@@ -1,0 +1,82 @@
+[
+  {
+    "question": "How long does shipping take?",
+    "category": "Orders"
+  },
+  {
+    "question": "Can I track my order?",
+    "category": "Orders"
+  },
+  {
+    "question": "Do you offer international shipping?",
+    "category": "Shipping"
+  },
+  {
+    "question": "What if I receive the wrong item?",
+    "category": "Returns"
+  },
+  {
+    "question": "Do you accept returns or exchanges?",
+    "category": "Returns"
+  },
+  {
+    "question": "Can I cancel my order?",
+    "category": "Orders"
+  },
+  {
+    "question": "What if my order is delayed?",
+    "category": "Shipping"
+  },
+  {
+    "question": "Can I change my shipping address?",
+    "category": "Orders"
+  },
+  {
+    "question": "Which payment methods do you accept?",
+    "category": "General"
+  },
+  {
+    "question": "Will I get a confirmation email after ordering?",
+    "category": "General"
+  },
+  {
+    "question": "What happens if my package gets lost?",
+    "category": "Shipping"
+  },
+  {
+    "question": "Is my payment information secure?",
+    "category": "General"
+  },
+  {
+    "question": "How do I know my order went through?",
+    "category": "Orders"
+  },
+  {
+    "question": "What is your return policy?",
+    "category": "Returns"
+  },
+  {
+    "question": "When will my refund be processed?",
+    "category": "Returns"
+  },
+  {
+    "question": "Can I exchange for a different size or color?",
+    "category": "Returns"
+  },
+  {
+    "question": "Do you provide order updates?",
+    "category": "Orders"
+  },
+  {
+    "question": "What courier do you use?",
+    "category": "Shipping"
+  },
+  {
+    "question": "Do you ship to PO Boxes?",
+    "category": "Shipping"
+  },
+  {
+    "question": "Can I add items to an order I just placed?",
+    "category": "Orders"
+  }
+]

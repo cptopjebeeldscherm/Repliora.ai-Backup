@@ -1,0 +1,38 @@
+{
+  "delivery_time": [
+    "how long",
+    "delivery",
+    "shipping time",
+    "when will it arrive",
+    "estimated delivery"
+  ],
+  "return_policy": [
+    "return",
+    "refund",
+    "send back",
+    "how to return",
+    "return process"
+  ],
+  "order_status": [
+    "order status",
+    "where is my order",
+    "track my order",
+    "tracking info"
+  ],
+  "contact": [
+    "contact",
+    "email",
+    "support",
+    "customer service"
+  ],
+  "cancel_order": [
+    "cancel",
+    "cancel order",
+    "abort purchase"
+  ],
+  "Orders": ["where is my order", "track", "tracking", "delivery", "package", "order status"],
+  "Returns": ["how to return", "return item", "returning", "send back"],
+  "Refunds": ["refund", "money back", "return payment", "partial refund"],
+  "Shipping": ["cancel", "change address", "shipping", "delivery delay"],
+  "Issues": ["wrong item", "damaged", "broken", "incorrect"]
+}

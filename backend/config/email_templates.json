@@ -1,0 +1,19 @@
+{
+    "Orders": {
+      "Where is my order?": "Hi! Thank you for reaching out to [storeName].\n\nWe typically process orders in [processingTime], and delivery takes [shippingTime]. You’ll receive tracking soon.\n\nBest regards,\n[signature]",
+      "Estimated delivery date": "Thanks for contacting [storeName]!\n\nOnce your order is placed, it takes [processingTime] to process and [shippingTime] to ship.\n\nKind regards,\n[signature]"
+    },
+    "Returns": {
+      "How do I return my item?": "Hi there,\n\nTo return an item, please check our return policy here: [returnPolicy]. If you have any questions, feel free to email us at [supportEmail].\n\nThanks,\n[signature]"
+    },
+    "Refunds": {
+      "Can I get a refund?": "Hi!\n\nIf your order has been delivered and you are unsatisfied, we can offer a partial refund. Let us know and we’ll help you out!\n\nBest,\n[signature]"
+    },
+    "Shipping": {
+      "Change shipping address": "Hi! If your order hasn’t been shipped yet, we’ll update your address. If it’s already shipped, we recommend contacting your local courier for redirection.\n\nThanks,\n[signature]"
+    },
+    "Issues": {
+      "Wrong item/color/size": "Sorry to hear that!\n\nPlease send us a picture of the item you received to [supportEmail], and we’ll assist with a replacement right away.\n\nBest regards,\n[signature]"
+    }
+  }
+  

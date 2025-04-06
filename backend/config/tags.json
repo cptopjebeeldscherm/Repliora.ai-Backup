@@ -1,0 +1,10 @@
+{
+    "Orders": ["where is my order", "delivery", "tracking", "delayed"],
+    "Refunds": ["refund", "money back", "return and refund"],
+    "Returns": ["return", "send back", "how to return"],
+    "Shipping": ["change address", "shipping", "courier", "cancel my order"],
+    "Issues": ["damaged", "wrong item", "incorrect", "broken"],
+    "Urgent": ["asap", "urgent", "immediately", "now"],
+    "VIP": ["i’m a loyal customer", "vip", "priority"]
+  }
+  

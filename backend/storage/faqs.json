@@ -1,22 +1,22 @@
 [
   {
     "question": "How long does delivery take?",
-    "answer": "Delivery takes 3\u20135 business days."
+    "answer": "Orders"
   },
   {
     "question": "What is your return policy?",
-    "answer": "You can return items within 14 days of delivery."
+    "answer": "Returns"
   },
   {
     "question": "Do you ship internationally?",
-    "answer": "Yes, we ship to most countries worldwide."
+    "answer": "Shipping"
   },
   {
     "question": "How can I track my order?",
-    "answer": "Once your order ships, you\u2019ll receive a tracking number by email."
+    "answer": "Orders"
   },
   {
     "question": "Can I cancel or change my order?",
-    "answer": "You can cancel or change your order within 12 hours of placing it."
+    "answer": "Orders"
   }
 ]

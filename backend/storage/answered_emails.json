@@ -1,0 +1,10 @@
+[
+  {
+    "from": "alisourcepro@service.alibaba.com",
+    "subject": "Source large orders using RFQ",
+    "message": "(No readable content)",
+    "intent": null,
+    "tags": [],
+    "reply": "Shipping"
+  }
+]
