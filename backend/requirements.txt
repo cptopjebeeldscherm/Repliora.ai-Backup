@@ -104,3 +104,7 @@ fastapi
 uvicorn
 sentence-transformers
 apscheduler
+<<<<<<< HEAD
+=======
+
+>>>>>>> 48048cc (WIP: your message here)
