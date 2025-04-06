@@ -1,10 +1,7 @@
 import axios from "axios";
 
-// Automatically choose the correct base URL depending on the environment
-const API_BASE =
-  import.meta.env.PROD
-    ? "https://repliora-api.onrender.com"
-    : "http://localhost:8000";
+// Use environment variable for API base, fallback if not set
+const API_BASE = import.meta.env.VITE_API_URL || "https://repliora-api.onrender.com";
 
 // Create a pre-configured axios instance
 const api = axios.create({
@@ -12,6 +9,7 @@ const api = axios.create({
   headers: {
     "Content-Type": "application/json",
   },
+  withCredentials: true, // important if backend uses cookies/sessions
 });
 
 // Add a request interceptor to inject user email in all requests
