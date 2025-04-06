@@ -10,7 +10,7 @@ export default function Login({ onLogin }) {
 
   const handleLogin = async () => {
     try {
-      const response = await api.post("/login", { email, password });
+      const response = await api.post("/auth/login", { email, password });
       const { user_id, role = "user" } = response;
 
       // Debug log
