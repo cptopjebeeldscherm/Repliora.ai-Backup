@@ -1,0 +1,19 @@
+{
+    "services": [
+      {
+        "name": "backend",
+        "root": "backend",
+        "startCommand": "uvicorn main:app --host 0.0.0.0 --port 8000",
+        "installCommand": "pip install -r requirements.txt"
+      },
+      {
+        "name": "frontend",
+        "root": "frontend",
+        "startCommand": "npm run preview",
+        "installCommand": "npm install",
+        "buildCommand": "npm run build",
+        "staticBuildDirectory": "dist"
+      }
+    ]
+  }
+  

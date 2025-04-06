@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // Use environment variable for API base, fallback if not set
-const API_BASE = import.meta.env.VITE_API_URL || "https://repliora-api.onrender.com";
+const API_BASE = import.meta.env.VITE_API_URL;
 
 // Create a pre-configured axios instance
 const api = axios.create({
